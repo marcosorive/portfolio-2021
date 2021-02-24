@@ -1,0 +1,41 @@
+.arrow {
+    &--wrapper {
+        color: white;
+        background-color: black;
+        height: 1em;
+        width: 11.5em;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 0.5em;
+        position: relative;
+    }
+    &--wrapper::after {
+        content: " ";
+        position: absolute;
+        top: 100%; /* At the bottom of the tooltip */
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    &--wrapper {
+        flex:2;
+    }
+    .arrow {
+        &--wrapper::after {
+            content: " ";
+            position: absolute;
+            top: 50%;
+            left: 102%; /* To the right of the tooltip */
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent transparent black;
+        }
+    }
+}

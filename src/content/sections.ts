@@ -1,8 +1,8 @@
-import { About } from "../components/about/about";
-import { Contact } from "../components/contact/contact";
-import { Experience } from "../components/experience/experience";
-import { Interests } from "../components/interests/interests";
-import { Personal } from "../components/personalProjects/personal";
+import { About } from "../containers/about/about";
+import { Contact } from "../containers/contact/contact";
+import { Experience } from "../containers/experience/experience";
+import { Interests } from "../containers/interests/interests";
+import { Personal } from "../containers/personalProjects/personal";
 export type Section = {
     header: string
     navigationId?: string

@@ -1,0 +1,28 @@
+.exp-card{
+    &--container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+    &--wrapper{
+        background-color: rgb(78, 78, 78);
+        color: white;
+        width: 100%;
+        margin: 1em;
+        padding: 1em;
+    }
+
+}
+@media only screen and (min-width: 600px) {
+    .exp-card{
+        &--container{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        &--wrapper{
+            flex: 3;
+        }
+    }
+}

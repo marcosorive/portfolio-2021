@@ -1,6 +1,6 @@
 
-import { Presentation } from "../components/presentation/presentation";
-import { Navbar } from "../components/navbar/navbar";
+import { Presentation } from "../containers/presentation/presentation";
+import { Navbar } from "../containers/navbar/navbar";
 import { sections_collection } from "../content/sections";
 import { Section } from "../components/section/section";
 
