@@ -1,11 +1,11 @@
-import { Button } from "./Button";
+import { ButtonType } from "./Button";
 
 export type ExperienceType = {
     title:string,
     stack: string,
     description: string,
     dates: string,
-    buttons: Button[]
+    buttons: ButtonType[]
 }
 
 export const experience_collection = [

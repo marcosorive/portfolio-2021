@@ -6,15 +6,23 @@
         align-items: center;
     }
     &--wrapper{
-        background-color: rgb(78, 78, 78);
-        color: white;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         width: 100%;
         margin: 1em;
         padding: 1em;
     }
-
+    &--title{
+        font-size: 1.5em;
+    }
+    &--subtitle{
+        color:rgb(108, 117, 125);
+        margin-bottom: 1em;
+    }
+    &--description{
+        margin-bottom: 1em;
+    }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     .exp-card{
         &--container{
             display: flex;

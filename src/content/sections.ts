@@ -17,7 +17,7 @@ export const sections_collection: Section[] = [
     },
     {
         header: "Profesional Experience 👨‍💻",
-        navigationId: "section_experiencet",
+        navigationId: "section_experience",
         content: Experience
     },
     {

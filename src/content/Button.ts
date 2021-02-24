@@ -1,4 +1,4 @@
-export type Button = {
+export type ButtonType = {
     text: string,
     url: string
 }
