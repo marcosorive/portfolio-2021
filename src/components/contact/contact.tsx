@@ -1,5 +1,1 @@
-export function Contact() {
-    return <section>
-        <h1>Contact</h1>
-    </section>
-}
+export const Contact = () => <h2>Form</h2>

@@ -1,6 +1,1 @@
-export function Personal() {
-    return <section>
-        <h1>Personal Projects</h1>
-        <h1>Older projects</h1>
-    </section>
-}
+export const Personal = () => <h2>Older projects</h2>
