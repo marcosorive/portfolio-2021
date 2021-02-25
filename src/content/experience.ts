@@ -1,14 +1,6 @@
-import { ButtonType } from "./Button";
+import { CardContentType } from "./types";
 
-export type ExperienceType = {
-    title:string,
-    stack: string,
-    description: string,
-    dates: string,
-    buttons: ButtonType[]
-}
-
-export const experience_collection = [
+export const experience_collection: CardContentType[] = [
     {
         title:"Adidas",
         stack: "Software developer",
@@ -42,6 +34,33 @@ export const experience_collection = [
             {
                 "text": "Visit",
                 "url": "https://www.csa.es/"
+            }
+        ]
+    }
+]
+
+export const freelance_collection: CardContentType[] = [
+    {
+        title:"Estudio Luis Mena",
+        stack: "Wordpress",
+        description: "Portfolio site for Estudio Luis Mena, a photography studio. Included some learning sessions on how to use wordpress.",
+        dates: "January 2021 - Now",
+        buttons: [
+            {
+                text: "Visit",
+                url: "https://estudioluismena.com/"
+            }
+        ]
+    },
+    {
+        title:"Inmobiliaria Raquel Vázquez",
+        stack: "Python, Django, MySQL, Bootstrap.",
+        description: "Web app for internal data managment. Revamped a whole site, adapting a legacy DB, improving security, UX and UI.",
+        dates: "Aug. 2018 - Now",
+        buttons: [
+            {
+                text: "Visit",
+                url: "https://www.inmobiliariaraquelvazquez.com"
             }
         ]
     }

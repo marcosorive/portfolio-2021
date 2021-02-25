@@ -1,0 +1,158 @@
+import { CardContentType } from "./types";
+
+export const featuredProjects: CardContentType[] = [
+    {
+        title:"Torky",
+        stack: "Python, Flask, ReactJS, Bootstrap.",
+        description: "Videogame price comparator for Spanish stores. Uses webscrapping and Amazon API.",
+        imagePath: "/img/torky.png",
+        imageAlt: "Torky screenshot",
+        buttons: [
+            {
+                "url": "https://github.com/marcosorive/torky-api",
+                "text": "Code"
+            },
+            {
+                "url": "https://marcosorive.github.io/torky/",
+                "text": "Try it!"
+            }
+        ]
+    },
+    {
+        title:"Torky Native",
+        stack: "React native",
+        description: "Smartphone for Torky, made with React Native. It will be avaiible in the Google Play store as soon as Google gets it approved.",
+        imagePath: "/image/torkynative.jpg",
+        imageAlt: "Torky native screenshot",
+        buttons: [
+            {
+                "url": "https://github.com/marcosorive/torky-native",
+                "text": "Code"
+            },
+            {
+                "url": "https://play.google.com/store/apps/details?id=me.orive.marcos.torkynative",
+                "text": "Google Play"
+            }
+        ]
+    },
+    {
+        title:"Animal Crossin Daily Tasks",
+        stack: "Angular, Node.js, MongoDB",
+        description: "A web app that helps Animal Crossing players organize their daily tasks when playing the game.",
+        imagePath: "/img/actasks.png",
+        imageAlt: "Animal crossing daily tasks screenshot",
+        buttons: [
+            {
+                "url": "https://gitlab.com/marcosorive/acnh-daily-tasks",
+                "text": "Code"
+            },
+            {
+                "url": "https://acdailytasks.herokuapp.com",
+                "text": "Try it!"
+            }
+        ]
+    }
+]
+
+export const contributingProjects: CardContentType[] = [
+    // DataVisulizer
+];
+
+
+export const otherProjects: CardContentType[] = [
+    {
+        title:"Responsive navbar with overlay",
+        stack: "React, CSS",
+        description: "A React component that consists of a customizable navbar that mutates into an overlay menu when the screen is smaller than 600px. Available in NPM.",
+        imagePath: "navbar",
+        imageAlt: "Navbar screenshot",
+        buttons: [
+            {
+                url: "https://github.com/marcosorive/react-responsive-navbar-overlay",
+                text: "Code"
+            },
+            {
+                url: "https://www.npmjs.com/package/react-responsive-navbar-overlay",
+                text: "NPM"
+            }
+        ]
+    },
+    {
+        title:"HotFeet",
+        stack: "C#, Unity",
+        description: "Smartphones and PC videogame I'm developing with some friends.",
+        imagePath: "hotfeet",
+        imageAlt: "Hotfeet screenshot.",
+        buttons: [
+            {
+                url: "https://javiropos.visualstudio.com/_git/HotFeet",
+                text: "Code"
+            }
+        ]
+    },
+    {
+        title:"Switch Calendar",
+        stack: "Python, Django, MySQL, MDBootstrap.",
+        description: "Web app to keep track the Nintendo Switch games releases. Users can register/log in and create their own calendar.",
+        imagePath: "nSwitch",
+        imageAlt: "Nintendo switch calendar",
+        buttons: [
+            {
+                url: "https://github.com/marcosorive/switchcalendar",
+                text: "Code"
+            },
+            {
+                url: "https://switchcalendar.pythonanywhere.com",
+                text: "Try it!"
+            }
+        ]
+    },
+    {
+        title:"UBU ReactVR",
+        stack: "Node.js with typescript, React, React Native, React360.",
+        description: "My final degree project. Web, smartphone and VR/300 apps with a Node.js server. Manage and inspect 3D models in VR. Made in colaboration with <a href=\"https://hpscds.com/\" rel=\"noopener noreferrer\" target=\"_blank\">HP SCDS</a>.",
+        imagePath: "ubureactvr",
+        imageAlt: "Ubu ReactVr",
+        buttons: [
+            {
+                url: "https://hpscds.com/observatorio_proyectos/reactvr/",
+                text: "More info"
+            }
+        ]
+    },
+    
+    {
+        title:"Astronomic picture of the day",
+        stack: "ReactJS, Bootstrap",
+        description: "React project that displays NASA's Astronomic picture of the day",
+        imagePath: "apodReact",
+        imageAlt: "Apod React screenshot",
+        buttons: [
+            {
+                "url": "https://github.com/marcosorive/apod-react",
+                "text": "Code"
+            },
+            {
+                "url": "https://marcosorive.github.io/apod-react/",
+                "text": "Try it!"
+            }
+        ]
+    },
+    {
+        title:"Another taco, please!",
+        stack: "ReactJS, MDBootstrap.",
+        description: "Frontend project for tacofancy-api, displays random taco recipes.",
+        imagePath: "anotherTaco",
+        imageAlt: "Another taco, please!",
+        buttons: [
+            {
+                "url": "https://github.com/marcosorive/anothertacoplease",
+                "text": "Code"
+            },
+            {
+                "url": "https://marcosorive.github.io/anothertacoplease/",
+                "text": "Try it!"
+            }
+        ]
+    }
+];

@@ -1,4 +1,4 @@
-import { ButtonType } from "../../content/Button";
+import { ButtonType } from "../../content/types";
 import './button.scss'
 
 interface Props {
