@@ -2,9 +2,9 @@
 
 .button {
     &--link {
-        margin: 0;
-        background-color: $green;
-        color: white;
+        margin-right: 0.5em;
+        background-color: inherit;
+        color: $green   ;
         text-decoration: none;
         display: inline-block;
         font-weight: 400;
@@ -15,16 +15,20 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-        border: 1px solid transparent;
-        border-top-color: transparent;
-        border-right-color: transparent;
-        border-bottom-color: transparent;
-        border-left-color: transparent;
+        border: 1px solid $green;
+        // border-top-color: transparent;
+        // border-right-color: transparent;
+        // border-bottom-color: transparent;
+        // border-left-color: transparent;
         padding: 0.375rem 0.75rem;
         font-size: 1rem;
         line-height: 1.5;
         border-radius: 0.25rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
         transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
             box-shadow 0.15s ease-in-out;
+    }
+    &--link:hover{
+        transform: translateY(2px);
     }
 }

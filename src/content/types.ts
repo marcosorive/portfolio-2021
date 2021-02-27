@@ -11,4 +11,12 @@ export type CardContentType = {
     dates?: string,
     imagePath?: string;
     imageAlt?: string;
+    status?: ProjectStatus;
+}
+
+export enum ProjectStatus {
+    completed = "completed",
+    maintenance = "maintenance",
+    development = "development",
+    abandoned = "abandoned"  
 }

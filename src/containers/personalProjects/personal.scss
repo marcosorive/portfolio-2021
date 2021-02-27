@@ -1,0 +1,16 @@
+.personal-projects{
+    &--project-list{
+
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .personal-projects{
+        &--project-list{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+}

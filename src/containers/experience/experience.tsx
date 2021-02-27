@@ -1,13 +1,13 @@
 import { experience_collection } from '../../content/experience'
 import { freelance_collection } from '../../content/experience'
-import { SimpleCard } from "../../components/simpleCard/simpleCard";
+import { DateCard } from "../../components/card/dateCard";
 
 export const Experience = () => {
     const expCards = experience_collection.map((exp) => {
-        return <SimpleCard experience={exp}/>
+        return <DateCard experience={exp} key={exp.title}/>
     }) 
     const freelanceCards = freelance_collection.map((exp) => {
-        return <SimpleCard experience={exp}/>
+        return <DateCard experience={exp} key={exp.title}/>
     }) 
     return <>{expCards}
     <h2>Freelance projects</h2>
