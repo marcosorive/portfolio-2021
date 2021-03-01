@@ -6,7 +6,7 @@ interface Props {
     experience: CardContentType
 }
 
-const CardBody: React.FC<Props> = (props: Props) => {
+export const CardBody: React.FC<Props> = (props: Props) => {
     const { experience } = props
     const buttons = experience.buttons.map((button) => {
         return <Button button={button} key={button.url} />

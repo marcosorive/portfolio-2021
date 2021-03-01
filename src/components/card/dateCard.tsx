@@ -1,7 +1,7 @@
 import './dateCard.scss'
 import { CardContentType } from "../../content/types";
 import { ArrowDate } from "../arrowDate/arroDate";
-import { SimpleCard } from "../card/simpleCard";
+import { CardBody } from "../card/simpleCard";
 
 interface Props {
     experience: CardContentType
@@ -14,7 +14,7 @@ export const DateCard: React.FC<Props> = (props: Props) => {
                     <ArrowDate dateText={experience.dates ?? ""}/>
                 </div>
                 <div className="date-card--content">
-                    <SimpleCard experience={experience}/>
+                    <CardBody experience={experience}/>
                 </div>
             </div>
 }
